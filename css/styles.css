@@ -36,6 +36,9 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #212121;
 }
+.current {
+    color: #2196F3;
+}
 .header-menu:hover {
     color: #2196F3;
     }
@@ -153,9 +156,21 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*-------------------------------------Portfolio------------------------------------------------*/
+.menu-title-top {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .menu-btn:hover {
     background-color:var(--first-btn-background-color);
-    color:var(--second-btn-background-color);
+    color:#FFFFFF;
 }
 .menu-btn {
 font-family: inherit;
@@ -165,13 +180,14 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-background-color:var(--first-btn-background-color);
+background-color:#F5F4FA;
 border-radius: 4px;
 border: none;
 cursor: pointer;
 }
 .menu-btn:focus {
-    background-color: var(--first-btn-background-color);}
+    background-color:#F5F4FA;
+    color: #000;}
 .projects {
         background: #F5F5F5;
 }
